@@ -11,3 +11,4 @@ class Measurement(models.Model):
 
     def __str__(self):
         return '%s %s' % (self.value, self.unit)
+        
